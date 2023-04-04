@@ -1,0 +1,54 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 25px;
+  height: 100vh;
+}
+
+.even-odd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  padding: 35px;
+  border-radius: 8px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.even-odd {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.increment-btn {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hint {
+  color: #1e293b;
+  font-size: 10px;
+}
